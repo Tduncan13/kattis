@@ -1,10 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-//	Have two hash maps one for the first leg of the race.  Map each name to their first time.  
-//	The second hash map will be hashing to min heaps of the other runners and pop() the mins 3 times. 
-//	add the popped values to the first time of the runner in the first hash map and keep track of the best 
-//	combined time. 
 public class Relay
 {
 	public static void main(String[] args)
